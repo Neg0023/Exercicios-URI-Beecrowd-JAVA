@@ -26,12 +26,13 @@ public class Main {
         // As mensagens devem ser impressas conforme a descrição do problema.
         // Não esqueça de imprimir o enter após o final de cada linha, caso contrário obterá "Presentation Error".
         Scanner sc = new Scanner(System.in);
+
         double n1 = sc.nextDouble();
         double n2 = sc.nextDouble();
         double n3 = sc.nextDouble();
         double n4 = sc.nextDouble();
-
-        double media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1))/10;
+        double n5;
+        double media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1))/10.0;
 
         System.out.printf("Media: %.1f%n", media);
 
@@ -39,19 +40,18 @@ public class Main {
             System.out.println("Aluno aprovado.");
         } else if (media < 5.0) {
             System.out.println("Aluno reprovado.");
-        } else if ((media >= 5) && (media <= 6.9)) {
+        } else if ((media >= 5.0) && (media <= 6.9)) {
             System.out.println("Aluno em exame.");
-            double n5 = sc.nextDouble();
+            n5 = sc.nextDouble();
             System.out.printf("Nota do exame: %.1f%n", n5);
-            media = (media + n5) / 2;
+            media = (media + n5) / 2.0;
             if (media >= 5.0) {
                 System.out.println("Aluno aprovado.");
-                System.out.printf("Media final: %.1f%n", media);
-            } else if (media < +4.9) {
+            } else {
                 System.out.println("Aluno reprovado.");
-                System.out.printf("Media final: %.1f%n", media);
             }
-            sc.close();
+            System.out.printf("Media final: %.1f%n", media);
         }
+        sc.close();
     }
 }
