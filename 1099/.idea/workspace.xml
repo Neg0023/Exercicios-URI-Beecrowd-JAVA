@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="af25be59-d35e-4454-b48e-acd38221d115" name="Changes" comment="" />
+    <list default="true" id="af25be59-d35e-4454-b48e-acd38221d115" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../1001/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1001/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1001/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +40,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/home/uemerson/Exercicios-URI-Beecrowd-JAVA/1099",
+    "last_opened_file_path": "/home/uemerson/Exercicios-URI-Beecrowd-JAVA/1099/untitled/src",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
