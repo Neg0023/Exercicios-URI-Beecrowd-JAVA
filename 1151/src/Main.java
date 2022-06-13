@@ -21,6 +21,7 @@ public class Main {
             fibonaci.add(((i <= 1) ? i : (fibonaci.get(i - 2) + fibonaci.get(i - 1))));
             System.out.print((i == n-1) ? fibonaci.get(i) : fibonaci.get(i) + " ");
         }
+        System.out.println();
         sc.close();
     }
 }
