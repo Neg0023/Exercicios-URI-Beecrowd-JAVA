@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -13,11 +15,12 @@ public class Main {
         //Os valores devem ser mostrados na mesma linha, separados por um espaço em branco.
         // Não deve haver espaço após o último valor.
         Scanner sc = new Scanner(System.in);
+        List<Integer> fibonaci = new ArrayList<>();
         int n = sc.nextInt();
-        int fibonaci = 0;
-        for (int i = 0; i < 5; i++) {
-            System.out.print((i < 3) ? i + " " : ((i == n) ? (fibonaci=(i-2)+(i)) : (fibonaci=(i-2)+(i)) + " "));
-
+        for (int i = 0; i < n; i++) {
+            fibonaci.add(((i <= 1) ? i : (fibonaci.get(i - 2) + fibonaci.get(i - 1))));
+            System.out.print((i == n-1) ? fibonaci.get(i) : fibonaci.get(i) + " ");
         }
+        sc.close();
     }
 }
