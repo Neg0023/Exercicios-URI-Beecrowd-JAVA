@@ -25,20 +25,23 @@ public class Main {
         // de acordo com a especificação acima.
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        int z = 20;
+        int z = sc.nextInt();
 
         while (z <= x) {
             z = sc.nextInt();
         }
+        System.out.println(x);
+        System.out.println(z);
 
-        int contador = 0;
         int soma = x;
-        while (soma<z) {
+        int contador = 0;
+        while (soma < z) {
+            soma+=contador+x;
             contador++;
-            soma += soma + contador;
-
         }
-        System.out.println(soma);
+
+        System.out.println(contador);
+
 
 
     }
