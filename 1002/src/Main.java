@@ -15,12 +15,17 @@ public class Main {
         // caso contrário, você receberá "Presentation Error".
 
         Scanner sc = new Scanner(System.in);
-        double raio, area;
 
-        raio = sc.nextDouble();
+        //Lê o valor do raio da circunderencia
+        double raio = sc.nextDouble();
 
-        area = 3.14159*Math.pow(raio, 2);
+        //Exibe a area da circunferencia com 4 casas decimais
+        System.out.printf("A=%.4f%n", areaCircunferencia(raio));
+    }
 
-        System.out.printf("A=%.4f%n", area);
+    //Calcula a area da circunferencia
+    public static Double areaCircunferencia(double raio) {
+        double pi = 3.14159;
+        return pi * Math.pow(raio, 2);
     }
 }
