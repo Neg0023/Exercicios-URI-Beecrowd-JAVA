@@ -12,14 +12,15 @@ public class Main {
         // Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
         Scanner sc = new Scanner(System.in);
 
-       int a, b, soma;
+       int a, b;
 
        a = sc.nextInt();
        b = sc.nextInt();
 
-       soma = a + b;
+        System.out.printf("SOMA = %d%n", soma(a, b));
+    }
 
-       System.out.printf("SOMA = %d%n", soma);
-
+    public static Integer soma(int a, int b) {
+        return a + b;
     }
 }
