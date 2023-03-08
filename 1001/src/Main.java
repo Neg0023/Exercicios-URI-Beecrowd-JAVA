@@ -7,15 +7,17 @@ public class Main {
         //mensagem explicativa, conforme exemplos.
 
         Scanner sc = new Scanner(System.in);
-        int x,y, soma;
+        int x,y;
 
         x = sc.nextInt();
         y = sc.nextInt();
 
-        soma = x + y;
-
-        System.out.println("X = " + soma);
+        System.out.printf("X = %d%n", soma(x, y));
 
         sc.close();
+    }
+
+    public static Integer soma(int x,int y) {
+        return x + y;
     }
 }
