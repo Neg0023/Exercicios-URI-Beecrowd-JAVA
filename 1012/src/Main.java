@@ -17,23 +17,33 @@ public class Main {
         // sempre com mensagem correspondente e um espaço entre os dois pontos e o valor.
         // O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
         Scanner sc = new Scanner(System.in);
-        double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
+        double a, b, c;
 
         a = sc.nextDouble();
         b = sc.nextDouble();
         c = sc.nextDouble();
 
-        triangulo = (a*c)/2;
-        circulo = 3.14159 * Math.pow(c, 2);
-        trapezio = ((a + b) * c) / 2;
-        quadrado = Math.pow(b, 2);
-        retangulo = a * b;
-
-        System.out.printf("TRIANGULO: %.3f%n", triangulo);
-        System.out.printf("CIRCULO: %.3f%n", circulo);
-        System.out.printf("TRAPEZIO: %.3f%n", trapezio);
-        System.out.printf("QUADRADO: %.3f%n", quadrado);
-        System.out.printf("RETANGULO: %.3f%n", retangulo);
+        System.out.printf("TRIANGULO: %.3f%n", triangulo(a,c));
+        System.out.printf("CIRCULO: %.3f%n", circulo(c));
+        System.out.printf("TRAPEZIO: %.3f%n", trapezio(a, b, c));
+        System.out.printf("QUADRADO: %.3f%n", quadrado(b));
+        System.out.printf("RETANGULO: %.3f%n", retangulo(a, b));
         sc.close();
+    }
+
+    public static Double triangulo(double a, double c) {
+        return (a*c)/2;
+    }
+    public static Double circulo(double c) {
+        return Math.PI * Math.pow(c, 2);
+    }
+    public static Double trapezio(double a, double b, double c) {
+        return ((a + b) * c) / 2;
+    }
+    public static Double quadrado(double b) {
+        return Math.pow(b, 2);
+    }
+    public static Double retangulo(double a, double b) {
+        return a * b;
     }
 }

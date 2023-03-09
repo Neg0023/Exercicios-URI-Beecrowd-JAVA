@@ -1,8 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27afa872-8c5c-4164-8bb1-7c6c1419a9b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1004/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1004/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1005/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1005/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1006/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1006/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1007/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1007/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1008/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1008/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1009/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1009/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1011/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1011/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1012/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/1012/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MhxDWL4NigR4FYUWZ13UlXemgX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27afa872-8c5c-4164-8bb1-7c6c1419a9b3" name="Changes" comment="" />
+      <created>1678233499700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678233499700</updated>
+      <workItem from="1678233500906" duration="1820000" />
+      <workItem from="1678319402068" duration="2753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

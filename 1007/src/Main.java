@@ -21,10 +21,12 @@ public class Main {
         c = sc.nextInt();
         d = sc.nextInt();
 
-        diferenca = ((a*b) - (c*d));
-
-        System.out.printf("DIFERENCA = %d%n", diferenca);
+        System.out.printf("DIFERENCA = %d%n", diferenca(a, b, c, d));
 
         sc.close();
+    }
+
+    public static Integer diferenca(int a, int b, int c, int d) {
+        return ((a*b) - (c*d));
     }
 }

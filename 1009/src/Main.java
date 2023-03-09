@@ -23,10 +23,12 @@ public class Main {
         salario = sc.nextDouble();
         vendas = sc.nextDouble();
 
-        total = salario + vendas*0.15;
-
-        System.out.printf("TOTAL = R$ %.2f%n", total);
+        System.out.printf("TOTAL = R$ %.2f%n", total(salario,vendas));
 
         sc.close();
+    }
+
+    public static Double total(double salario, double vendas) {
+        return salario + vendas*0.15;
     }
 }

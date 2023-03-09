@@ -16,16 +16,18 @@ public class Main {
         // você receberá "Presentation Error".
 
         Scanner sc = new Scanner(System.in);
-        double a, b, c, media;
+        double a, b, c;
 
         a = sc.nextDouble();
         b = sc.nextDouble();
         c = sc.nextDouble();
 
-        media = (a*2 + b*3 + c*5)/10;
-
-        System.out.printf("MEDIA = %.1f%n", media);
+        System.out.printf("MEDIA = %.1f%n", media(a, b, c));
 
         sc.close();
+    }
+
+    public static Double media(double a, double b, double c) {
+        return (a * 2 + b * 3 + c * 5) / 10;
     }
 }

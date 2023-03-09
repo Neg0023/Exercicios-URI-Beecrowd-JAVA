@@ -15,13 +15,14 @@ public class Main {
         //A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo,
         // com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
         Scanner sc = new Scanner(System.in);
-        double raio, volume, pi;
 
-        pi = 3.14159;
-        raio = sc.nextDouble();
-        volume = (4 / 3.0) * pi * Math.pow(raio, 3);
+        double raio = sc.nextDouble();
 
-        System.out.printf("VOLUME = %.3f%n", volume);
+        System.out.printf("VOLUME = %.3f%n", volume(raio));
         sc.close();
+    }
+
+    public static Double volume(double raio) {
+        return (4.0 / 3) * Math.PI * Math.pow(raio, 3);
     }
 }

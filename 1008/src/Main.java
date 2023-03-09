@@ -16,16 +16,14 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int numero, horas;
-        double valor, salario;
+        double valor;
 
         numero = sc.nextInt();
         horas = sc.nextInt();
         valor = sc.nextDouble();
 
-        salario = horas*valor;
-
         System.out.printf("NUMBER = %d%n", numero);
-        System.out.printf("SALARY = U$ %.2f", salario);
+        System.out.printf("SALARY = U$ %.2f", horas * valor);
 
         sc.close();
     }

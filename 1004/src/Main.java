@@ -12,12 +12,11 @@ public class Main {
         // Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
         Scanner sc = new Scanner(System.in);
-        int a, b, prod;
+        int a, b;
 
         a = sc.nextInt();
         b = sc.nextInt();
 
-        prod = a * b;
-        System.out.printf("PROD = %d", prod);
+        System.out.printf("PROD = %d%n", a * b);
     }
 }
